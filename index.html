@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapachito y Martina</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #fdf5e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        img.portada {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #d35400;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            margin: 15px 0;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        .btn-cuento {
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+        }
+        .btn-actividades {
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Asegúrate de que tu imagen de portada se llame 00portada.png -->
+        <img src="00portada.png" alt="Portada" class="portada">
+        
+        <h1>¡Bienvenidos!</h1>
+        
+        <a href="cuento.html" class="btn btn-cuento">📖 Leer el Cuento</a>
+        <a href="actividades.html" class="btn btn-actividades">🎨 Hacer Actividades</a>
+    </div>
+</body>
+</html>
